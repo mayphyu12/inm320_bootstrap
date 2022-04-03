@@ -1,0 +1,165 @@
+body {
+  background-color: #F7F8FC;
+  font-size: .875rem;
+}
+
+
+/****** Overwrite Boostrap Default Css ******/
+
+.nav-item {
+  margin-bottom: 20px;
+}
+.card .list-group {
+  border-top: 0px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:focus {
+  background-color: #07ba75;
+  border-color: #07ba75;
+  color: #fff;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 .25rem rgba(7,186,117,.5)
+}
+
+.page-link {
+  border: 0px;
+}
+
+/*Navigation*/
+
+
+.sidebar {
+  background-color: #363740!important;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 48px 0 0; /* Height of navbar */
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar .nav-link {
+  font-weight: normal;
+  color:#A4A6B3;
+
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #727272;
+}
+
+.sidebar .nav-link.active {
+  color: #DDE2FF;
+  background-color: rgba(159, 162, 180, 0.08);
+  padding: 16px;
+
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  background-color: #363740;
+   
+}
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+
+.profile {
+  width: 30px;
+}
+
+hr {
+  background-color: #A4A6B3;
+}
+header {
+  background-color: #363740;
+}
+
+
+.overview_block {
+  display: block!important;
+}
+
+.today, .yesterday {
+  position: relative;
+}
+
+.today:before { 
+  content: ""; 
+  display: block; 
+  position: absolute; 
+  background-color: #3751FF; 
+  height: 2px; 
+  width: 50%; 
+  right: 0; 
+  left: -25px; 
+  top: 50%;
+}
+
+.yesterday:before { 
+  content: ""; 
+  display: block; 
+  position: absolute; 
+  background-color: #DFE0EB; 
+  height: 2px; 
+  width: 35%; 
+  right: 10; 
+  left: -25px; 
+  top: 50%;
+}
+
+.unsolved_block {
+  padding: 11px;
+}
+
+.list-group-flush {
+  padding: 8px 0px;
+}
+
+
+/**** Desktop View ****/
+
+@media (min-width: 576px) { 
+  
+  .boxes_block .card{
+    margin: 0px 20px;
+  }
+  
+  .border-l {
+    border-left: 1px solid #DFE0EB;
+  }
+
+  .unsolved_block .card {
+  margin-right: 20px;
+}
+
+header {
+  background-color: transparent;
+}
+
+}
