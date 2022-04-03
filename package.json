@@ -4,8 +4,8 @@
   "description": "INM320SAA - Boostrap",
   "main": "dashboard.js",
   "scripts": {
-    "lite":"lite-server", 
-    "start":"npm run lite"
+    "lite": "lite-server",
+    "start": "npm run lite"
   },
   "author": "May Phyu Tun",
   "license": "ISC",

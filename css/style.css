@@ -27,6 +27,10 @@ body {
   border: 0px;
 }
 
+.navbar-brand {
+  padding-top: 0px!important;
+}
+
 /*Navigation*/
 
 
@@ -102,6 +106,8 @@ header {
 
 
 .overview_block {
+   background-color: #F7F8FC; 
+/*   background-color: black;*/
   display: block!important;
 }
 
@@ -146,10 +152,23 @@ header {
 
 @media (min-width: 576px) { 
   
-  .boxes_block .card{
-    margin: 0px 20px;
-  }
   
+  .overview_block {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 999;
+  }
+  .overviewboxes_block .card:hover{
+    border-color: #3751ff !important;
+    color: #3751ff !important;
+  }
+
+  .overviewboxes_block .card:hover p.text-muted{
+    color: #3751ff !important;
+    font-weight: bold;
+  }
+
   .border-lft {
     border-left: 1px solid #DFE0EB;
   }
