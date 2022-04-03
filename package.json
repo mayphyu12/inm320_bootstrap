@@ -1,14 +1,23 @@
 {
   "name": "may_tun_bootstrap",
   "version": "1.0.0",
-  "description": "INM320SAA - Boostrap",
+  "description": "INM320SAA Bootstrap",
   "main": "dashboard.js",
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayphyu12/inm320_bootstrap.git"
+  },
+  "keywords": [],
   "author": "May Phyu Tun",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayphyu12/inm320_bootstrap/issues"
+  },
+  "homepage": "https://github.com/mayphyu12/inm320_bootstrap#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
   }
